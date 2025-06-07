@@ -1,0 +1,115 @@
+
+use_ddp: False
+project: "FAVS"
+wandb: False
+wandb_name: "test"
+task: 'v2' # 'v1s', 'v1m', 'v2' || VPO-SS VPO-MS VPO-MSMI
+
+train: 
+  epochs: 120
+  warmup_epochs: 2 # 2
+  base_lr: 0.001
+  weight_decay: 0.05
+  warmup_lr: 4e-6 # 4e-6
+  min_lr: 4e-5 
+  seed: 0
+
+  lr_scheduler:
+    name: cosine # cosine setplr multisetplr
+    step_size: 40
+    step_gamma: 0.1
+    msteplr_milestones: [1, 2, 3, 4]
+    msteplr_gamma: 0.1
+
+  optimizer:
+    name: adamw
+    eps: 1e-8
+    betas: [0.9, 0.999]
+
+num_classes: 71
+vis_pretrain: '/data/AVSSData/mit_b5_imgnet.pth'
+
+vis_model:
+  type: 'FAVS' #  
+  in_channels: [64, 128, 320, 512] #
+  num_heads: [1, 2, 5, 8]
+  mlp_ratios: [4, 4, 4, 4]
+  qkv_bias: True
+  qk_scale: null
+  drop_rate: 0.0
+  drop_path_rate: 0.1
+  attn_drop_rate: 0.0
+  depths: [3, 6, 40, 3]
+  sr_ratios: [8, 4, 2, 1]
+  double_fea_size: False
+  
+align_model:
+  avss_aud_bank: "/project/_liuchen/AVSSData/aud_memory/1s_k5_feabank.npy"
+  aud_cls_num: 5 
+  
+seg_head:
+  type: "norm" # norm weighted uncertainty
+  embedding_dim: 768
+
+audio_model:
+  type: 'HTSAT_Swin_Transformer'
+  spec_size: 256
+  patch_size: 4
+  patch_stride: (4, 4)
+  in_chans: 1
+  num_classes: 71
+  num_heads: [4, 8, 16, 32]
+  window_size: 8
+  embed_dim: 96
+  depths: [2, 2, 6, 2]
+  config:
+    window_size: 1024
+    mel_bins: 64
+    hop_size: 256
+    sample_rate: 22050
+    fmin: 50
+    fmax: 50
+    htsat_attn_heatmap: False
+    htsat_hier_output: False
+    htsat_use_max: False
+    enable_tscam: True
+    token_label_range: [0.2, 0.6]
+    enable_time_shift: False
+    enable_label_enhance: False
+    enable_repeat_mode: False
+    loss_type: 'clip_bce'
+
+dataloader:
+  num_workers: 4
+  img_size: 224
+  data_file_i: "/data/AVSSData/metadata_w_silent.csv"
+  avss_data_file: "/data/AVSSData/metadata_w_silent.csv"
+  avss_data_dir: "/data/AVSSData/" 
+  avss_fea_dir: "/project/_liuchen/AVSSFea/" 
+  avss_box_json_file: "/data/AVSSData/avss_bbox_orisize.json"
+
+  vpo_audio_type: "mono" # "mono", "stereo"
+  vpo_datafile: "/project/_liuchen/VPO_Clean/vpo_data_clean.csv"
+  vpo_data_dir: "/project/_liuchen/VPO_Clean/"
+  vpo_fea_dir: "/project/_liuchen/VPOFea/"
+  vpo_box_json_file: "/project/_liuchen/VPO_Clean/vpo_bbox_orisize.json"
+
+  train_per_batch: 2
+  val_per_batch: 2
+
+  sample_rate: 22050
+  audDur: 1.0
+ 
+evaluate:
+  eval_only: null
+  vis_save_dir: ''
+  vis_wandb: False
+
+seed: 1
+output: null
+
+loss:
+  ce_weight: 0.0
+  focal_weight: 0.0
+  dice_weight: 0.0
+  iou_weight: 0.0

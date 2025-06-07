@@ -1,0 +1,145 @@
+[2025-05-06 10:44:59 experiment] INFO: Available devices: 2
+[2025-05-06 10:44:59 experiment] INFO: Training started on device: cuda:0
+[2025-05-06 10:54:40 experiment] INFO: Available devices: 2
+[2025-05-06 10:54:40 experiment] INFO: Training started on device: cuda:0
+[2025-05-06 10:57:13 experiment] INFO: Available devices: 2
+[2025-05-06 10:57:13 experiment] INFO: Training started on device: cuda:0
+[2025-05-06 10:58:12 experiment] INFO: Available devices: 2
+[2025-05-06 10:58:12 experiment] INFO: Training started on device: cuda:0
+[2025-05-06 11:01:36 experiment] INFO: Available devices: 2
+[2025-05-06 11:01:36 experiment] INFO: Training started on device: cuda:0
+[2025-05-06 11:05:18 experiment] INFO: Available devices: 2
+[2025-05-06 11:05:18 experiment] INFO: Training started on device: cuda:0
+[2025-05-06 11:07:46 experiment] INFO: ==> Total params: 103.88M
+[2025-05-06 11:10:01 experiment] INFO: Available devices: 2
+[2025-05-06 11:10:01 experiment] INFO: Training started on device: cuda:0
+[2025-05-06 11:11:59 experiment] INFO: ==> Total params: 103.88M
+[2025-05-06 11:11:59 experiment] INFO: ****************     Starting training the 0 epoch       *********************
+[2025-05-06 11:11:59 experiment] INFO: The amount of training data: 52422, validation data: 11523
+[2025-05-06 11:13:00 experiment] INFO: Available devices: 2
+[2025-05-06 11:13:00 experiment] INFO: Training started on device: cuda:0
+[2025-05-06 11:14:29 experiment] INFO: ==> Total params: 103.88M
+[2025-05-06 11:14:30 experiment] INFO: ****************     Starting training the 0 epoch       *********************
+[2025-05-06 11:14:30 experiment] INFO: The amount of training data: 52422, validation data: 11523
+[2025-05-06 11:52:28 experiment] INFO: Available devices: 2
+[2025-05-06 11:52:28 experiment] INFO: Training started on device: cuda:0
+[2025-05-06 11:53:58 experiment] INFO: ==> Total params: 103.88M
+[2025-05-06 11:54:04 experiment] INFO: ****************     Starting training the 0 epoch       *********************
+[2025-05-06 11:54:04 experiment] INFO: The amount of training data: 52422, validation data: 11523
+[2025-05-06 12:05:30 experiment] INFO: Available devices: 2
+[2025-05-06 12:05:30 experiment] INFO: Training started on device: cuda:0
+[2025-05-06 12:07:25 experiment] INFO: ==> Total params: 103.88M
+[2025-05-06 12:07:26 experiment] INFO: ****************     Starting training the 0 epoch       *********************
+[2025-05-06 12:07:26 experiment] INFO: The amount of training data: 52422, validation data: 11523
+[2025-05-06 12:11:57 experiment] INFO: Available devices: 2
+[2025-05-06 12:11:57 experiment] INFO: Training started on device: cuda:0
+[2025-05-06 12:14:19 experiment] INFO: ==> Total params: 103.88M
+[2025-05-06 12:14:19 experiment] INFO: ****************     Starting training the 0 epoch       *********************
+[2025-05-06 12:14:19 experiment] INFO: The amount of training data: 52422, validation data: 11523
+[2025-05-06 13:10:40 experiment] INFO: Available devices: 2
+[2025-05-06 13:10:40 experiment] INFO: Training started on device: cuda:0
+[2025-05-06 13:12:56 experiment] INFO: ==> Total params: 103.88M
+[2025-05-06 13:12:59 experiment] INFO: ****************     Starting training the 0 epoch       *********************
+[2025-05-06 13:12:59 experiment] INFO: The amount of training data: 52422, validation data: 11523
+[2025-05-06 13:41:24 experiment] INFO: Available devices: 2
+[2025-05-06 13:41:24 experiment] INFO: Training started on device: cuda:0
+[2025-05-06 13:42:35 experiment] INFO: ==> Total params: 103.88M
+[2025-05-06 13:42:35 experiment] INFO: ****************     Starting training the 0 epoch       *********************
+[2025-05-06 13:42:35 experiment] INFO: The amount of training data: 52422, validation data: 11523
+[2025-05-06 14:04:45 experiment] INFO: Saving new best model at epoch 0: mIoU = 0.3986
+[2025-05-06 14:04:46 experiment] INFO: /output/FAVS/test/20250506-134115/ck_epoch_0_maxmiou0.399_fscore0.556.pth saving......
+[2025-05-06 14:04:47 experiment] INFO: /output/FAVS/test/20250506-134115/ck_epoch_0_maxmiou0.399_fscore0.556.pth saved !!!
+[2025-05-06 14:04:47 experiment] INFO: ****************     Starting training the 1 epoch       *********************
+[2025-05-06 14:04:47 experiment] INFO: The amount of training data: 52422, validation data: 11523
+[2025-05-06 14:32:17 experiment] INFO: Saving new best model at epoch 1: mIoU = 0.4595
+[2025-05-06 14:32:17 experiment] INFO: /output/FAVS/test/20250506-134115/ck_epoch_1_maxmiou0.460_fscore0.621.pth saving......
+[2025-05-06 14:32:19 experiment] INFO: /output/FAVS/test/20250506-134115/ck_epoch_1_maxmiou0.460_fscore0.621.pth saved !!!
+[2025-05-06 14:32:19 experiment] INFO: ****************     Starting training the 2 epoch       *********************
+[2025-05-06 14:32:19 experiment] INFO: The amount of training data: 52422, validation data: 11523
+[2025-05-06 14:53:34 experiment] INFO: ****************     Starting training the 3 epoch       *********************
+[2025-05-06 14:53:35 experiment] INFO: The amount of training data: 52422, validation data: 11523
+[2025-05-06 15:20:11 experiment] INFO: Saving new best model at epoch 3: mIoU = 0.5009
+[2025-05-06 15:20:11 experiment] INFO: /output/FAVS/test/20250506-134115/ck_epoch_3_maxmiou0.501_fscore0.657.pth saving......
+[2025-05-06 15:20:12 experiment] INFO: /output/FAVS/test/20250506-134115/ck_epoch_3_maxmiou0.501_fscore0.657.pth saved !!!
+[2025-05-06 15:20:12 experiment] INFO: ****************     Starting training the 4 epoch       *********************
+[2025-05-06 15:20:12 experiment] INFO: The amount of training data: 52422, validation data: 11523
+[2025-05-06 15:41:22 experiment] INFO: ****************     Starting training the 5 epoch       *********************
+[2025-05-06 15:41:22 experiment] INFO: The amount of training data: 52422, validation data: 11523
+[2025-05-06 16:07:33 experiment] INFO: ****************     Starting training the 6 epoch       *********************
+[2025-05-06 16:07:33 experiment] INFO: The amount of training data: 52422, validation data: 11523
+[2025-05-06 16:28:46 experiment] INFO: Saving new best model at epoch 6: mIoU = 0.5249
+[2025-05-06 16:28:46 experiment] INFO: /output/FAVS/test/20250506-134115/ck_epoch_6_maxmiou0.525_fscore0.652.pth saving......
+[2025-05-06 16:28:48 experiment] INFO: /output/FAVS/test/20250506-134115/ck_epoch_6_maxmiou0.525_fscore0.652.pth saved !!!
+[2025-05-06 16:28:48 experiment] INFO: ****************     Starting training the 7 epoch       *********************
+[2025-05-06 16:28:48 experiment] INFO: The amount of training data: 52422, validation data: 11523
+[2025-05-06 16:54:52 experiment] INFO: ****************     Starting training the 8 epoch       *********************
+[2025-05-06 16:54:52 experiment] INFO: The amount of training data: 52422, validation data: 11523
+[2025-05-06 17:15:57 experiment] INFO: ****************     Starting training the 9 epoch       *********************
+[2025-05-06 17:15:57 experiment] INFO: The amount of training data: 52422, validation data: 11523
+[2025-05-06 17:41:53 experiment] INFO: ****************     Starting training the 10 epoch       *********************
+[2025-05-06 17:41:53 experiment] INFO: The amount of training data: 52422, validation data: 11523
+[2025-05-06 18:02:51 experiment] INFO: ****************     Starting training the 11 epoch       *********************
+[2025-05-06 18:02:51 experiment] INFO: The amount of training data: 52422, validation data: 11523
+[2025-05-06 18:28:57 experiment] INFO: ****************     Starting training the 12 epoch       *********************
+[2025-05-06 18:28:57 experiment] INFO: The amount of training data: 52422, validation data: 11523
+[2025-05-06 18:49:57 experiment] INFO: ****************     Starting training the 13 epoch       *********************
+[2025-05-06 18:49:57 experiment] INFO: The amount of training data: 52422, validation data: 11523
+[2025-05-06 19:15:58 experiment] INFO: ****************     Starting training the 14 epoch       *********************
+[2025-05-06 19:15:58 experiment] INFO: The amount of training data: 52422, validation data: 11523
+[2025-05-06 19:37:01 experiment] INFO: Saving new best model at epoch 14: mIoU = 0.5299
+[2025-05-06 19:37:01 experiment] INFO: /output/FAVS/test/20250506-134115/ck_epoch_14_maxmiou0.530_fscore0.669.pth saving......
+[2025-05-06 19:37:02 experiment] INFO: /output/FAVS/test/20250506-134115/ck_epoch_14_maxmiou0.530_fscore0.669.pth saved !!!
+[2025-05-06 19:37:02 experiment] INFO: ****************     Starting training the 15 epoch       *********************
+[2025-05-06 19:37:02 experiment] INFO: The amount of training data: 52422, validation data: 11523
+[2025-05-06 20:03:03 experiment] INFO: Saving new best model at epoch 15: mIoU = 0.5345
+[2025-05-06 20:03:03 experiment] INFO: /output/FAVS/test/20250506-134115/ck_epoch_15_maxmiou0.535_fscore0.674.pth saving......
+[2025-05-06 20:03:04 experiment] INFO: /output/FAVS/test/20250506-134115/ck_epoch_15_maxmiou0.535_fscore0.674.pth saved !!!
+[2025-05-06 20:03:04 experiment] INFO: ****************     Starting training the 16 epoch       *********************
+[2025-05-06 20:03:04 experiment] INFO: The amount of training data: 52422, validation data: 11523
+[2025-05-06 20:24:11 experiment] INFO: Saving new best model at epoch 16: mIoU = 0.5406
+[2025-05-06 20:24:11 experiment] INFO: /output/FAVS/test/20250506-134115/ck_epoch_16_maxmiou0.541_fscore0.675.pth saving......
+[2025-05-06 20:24:13 experiment] INFO: /output/FAVS/test/20250506-134115/ck_epoch_16_maxmiou0.541_fscore0.675.pth saved !!!
+[2025-05-06 20:24:13 experiment] INFO: ****************     Starting training the 17 epoch       *********************
+[2025-05-06 20:24:13 experiment] INFO: The amount of training data: 52422, validation data: 11523
+[2025-05-06 20:50:16 experiment] INFO: ****************     Starting training the 18 epoch       *********************
+[2025-05-06 20:50:16 experiment] INFO: The amount of training data: 52422, validation data: 11523
+[2025-05-06 21:11:21 experiment] INFO: ****************     Starting training the 19 epoch       *********************
+[2025-05-06 21:11:21 experiment] INFO: The amount of training data: 52422, validation data: 11523
+[2025-05-06 21:37:28 experiment] INFO: ****************     Starting training the 20 epoch       *********************
+[2025-05-06 21:37:28 experiment] INFO: The amount of training data: 52422, validation data: 11523
+[2025-05-06 21:58:26 experiment] INFO: ****************     Starting training the 21 epoch       *********************
+[2025-05-06 21:58:26 experiment] INFO: The amount of training data: 52422, validation data: 11523
+[2025-05-06 22:24:28 experiment] INFO: Saving new best model at epoch 21: mIoU = 0.5515
+[2025-05-06 22:24:28 experiment] INFO: /output/FAVS/test/20250506-134115/ck_epoch_21_maxmiou0.551_fscore0.680.pth saving......
+[2025-05-06 22:24:30 experiment] INFO: /output/FAVS/test/20250506-134115/ck_epoch_21_maxmiou0.551_fscore0.680.pth saved !!!
+[2025-05-06 22:24:30 experiment] INFO: ****************     Starting training the 22 epoch       *********************
+[2025-05-06 22:24:30 experiment] INFO: The amount of training data: 52422, validation data: 11523
+[2025-05-06 22:45:29 experiment] INFO: ****************     Starting training the 23 epoch       *********************
+[2025-05-06 22:45:29 experiment] INFO: The amount of training data: 52422, validation data: 11523
+[2025-05-06 23:11:23 experiment] INFO: ****************     Starting training the 24 epoch       *********************
+[2025-05-06 23:11:23 experiment] INFO: The amount of training data: 52422, validation data: 11523
+[2025-05-06 23:32:17 experiment] INFO: ****************     Starting training the 25 epoch       *********************
+[2025-05-06 23:32:17 experiment] INFO: The amount of training data: 52422, validation data: 11523
+[2025-05-06 23:58:10 experiment] INFO: ****************     Starting training the 26 epoch       *********************
+[2025-05-06 23:58:10 experiment] INFO: The amount of training data: 52422, validation data: 11523
+[2025-05-07 00:18:58 experiment] INFO: ****************     Starting training the 27 epoch       *********************
+[2025-05-07 00:18:59 experiment] INFO: The amount of training data: 52422, validation data: 11523
+[2025-05-07 00:45:00 experiment] INFO: ****************     Starting training the 28 epoch       *********************
+[2025-05-07 00:45:00 experiment] INFO: The amount of training data: 52422, validation data: 11523
+[2025-05-07 01:05:57 experiment] INFO: ****************     Starting training the 29 epoch       *********************
+[2025-05-07 01:05:57 experiment] INFO: The amount of training data: 52422, validation data: 11523
+[2025-05-07 01:22:21 experiment] INFO: Available devices: 2
+[2025-05-07 01:22:21 experiment] INFO: Training started on device: cuda:0
+[2025-05-07 01:24:17 experiment] INFO: ==> Total params: 103.88M
+[2025-05-07 01:24:20 experiment] INFO: ****************     Starting training the 0 epoch       *********************
+[2025-05-07 01:24:20 experiment] INFO: The amount of training data: 52422, validation data: 11523
+[2025-05-07 01:37:52 experiment] INFO: Available devices: 2
+[2025-05-07 01:37:52 experiment] INFO: Training started on device: cuda:0
+[2025-05-07 01:40:08 experiment] INFO: ==> Total params: 103.88M
+[2025-05-07 01:40:08 experiment] INFO: ****************     Starting training the 0 epoch       *********************
+[2025-05-07 01:40:08 experiment] INFO: The amount of training data: 52422, validation data: 11523
+[2025-05-07 01:41:19 experiment] INFO: Available devices: 2
+[2025-05-07 01:41:19 experiment] INFO: Training started on device: cuda:0
+[2025-05-07 01:42:36 experiment] INFO: ==> Total params: 103.88M
+[2025-05-07 01:42:36 experiment] INFO: ****************     Starting training the 0 epoch       *********************
+[2025-05-07 01:42:36 experiment] INFO: The amount of training data: 52422, validation data: 11523
