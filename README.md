@@ -16,7 +16,7 @@ Instructions for preparing your environment to run the code:
 ### 2. Data Preparation
 We reorganized the directory structures for AVSS and VPO to unify the data loading process. To help you get started quickly, you can directly utilize our reorganized [dataset here](https://huggingface.co/datasets/Yenan/DDESeg/tree/main). Additionally, you can download the original datasets from the AVSS and VPO repositories and implement your own data loader.
 
-To facilitate a quick start, I newly generate the audio memory bank and bounding box files for the sounding objects (the bbox file is used for data augmentation constraints). The audio memory bank is constructed using K-Means (details are provided in our paper). You have the option to generate your own audio memory bank and adjust the number of clusters for better performance.
+To facilitate a quick start, I newly generate the audio memory bank and bounding box files (all in zip files) for the sounding objects (the bbox file is used for data augmentation constraints). The audio memory bank is constructed using K-Means (details are provided in our paper). You have the option to generate your own audio memory bank and adjust the number of clusters for better performance.
 
 ### 3. Pretrained Model Preparation
 We provide the pretrained visual and audio [backbones here](https://huggingface.co/datasets/Yenan/DDESeg/tree/main). The visual backbone for DDESeg is trained on [ImageNet](https://image-net.org/index.php), while the audio backbone is trained on [AudioSet](https://research.google.com/audioset/). Additionally, you can experiment with other versions and replace the backbones as needed.
