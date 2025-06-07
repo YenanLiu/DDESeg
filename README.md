@@ -3,7 +3,7 @@
 This repository provides the PyTorch implementation for the **CVPR2025** paper "Dynamic Derivation and Elimination: Audio Visual Segmentation with Enhanced Audio Semantics". [[Arxiv]](https://arxiv.org/abs/2503.12840)
 
 ### Approach
-![Pipeline](https://github.com/YenanLiu/DDESeg_TPAMI/blob/main/ddeseg.png)
+![Pipeline]([https://github.com/YenanLiu/DDESeg_TPAMI/blob/main/ddeseg.png](https://github.com/YenanLiu/DDESeg/blob/main/ddeseg.png))
 DDESeg reconstructs the semantic content of the mixed audio signal by enriching the distinct semantic information of each individual source, deriving representations that preserve the unique characteristics of each sound. To reduce the matching difficulty, we introduce a discriminative feature learning module, which enhances the semantic distinctiveness of generated audio representations. Considering that not all derived audio representations directly correspond to visual features (e.g., off-screen sounds), we propose a dynamic elimination module to filter out non-matching elements. This module facilitates targeted interaction between sounding regions and relevant audio semantics. By scoring the interacted features, we identify and filter out irrelevant audio information, ensuring accurate audio-visual alignment.
 
 ### 1. Environment Preparation
