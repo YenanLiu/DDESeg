@@ -32,13 +32,13 @@ We provide the pretrained visual and audio [backbones here](https://huggingface.
 ```
 python runner.py -ddp -wandb -wn "avss_train" -nc 71 --task 'v2' --cfg './configs/ddeseg.yaml' -train_b 50 -val_b 1
 ```
-#### AVS-Object-V1s Setting
+#### AVS-Object-V1s (s4) Setting
 ```
 python runner.py -ddp -wandb -wn "avs_v1s_train" -nc 1 --task 'v1s' --cfg './configs/ddeseg.yaml' -train_b 50 -val_b 1
 ```
-#### AVS-Object-V1m Setting
+#### AVS-Object-V1m (MS3) Setting
 ```
-python runner.py -ddp -wandb -wn "avs_v1m_train" -nc 1 --task 'v1s' --cfg './configs/ddeseg.yaml' -train_b 50 -val_b 1 
+python runner.py -ddp -wandb -wn "avs_v1m_train" -nc 1 --task 'v1m' --cfg './configs/ddeseg.yaml' -train_b 50 -val_b 1 
 ```
 
 #### VPO-SS Setting
