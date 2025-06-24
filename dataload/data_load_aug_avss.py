@@ -28,8 +28,8 @@ def read_from_csv(csv_file_path, split, data_dir, task):
         reader = csv.reader(csvfile)
         next(reader)
         for row in reader:
-            r_split = row[5] # train val test
-            r_sub_set = row[6] # v1s v1m v2
+            r_split = row[4] # train val test
+            r_sub_set = row[5] # v1s v1m v2
             if task == "v2":
                 if r_split == split:
                     uid = row[1]
