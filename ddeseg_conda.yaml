@@ -38,7 +38,6 @@ dependencies:
       - annotated-types==0.7.0
       - antlr4-python3-runtime==4.9.3
       - anyio==4.5.2
-      - apex==0.1
       - async-timeout==4.0.3
       - attrs==24.2.0
       - audioread==3.0.1
