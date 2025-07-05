@@ -11,7 +11,7 @@ DDESeg reconstructs the semantic content of the mixed audio signal by enriching 
 Instructions for preparing your environment to run the code:
 ```
    $ conda install pytorch==2.4.0 torchvision==0.19.0 torchaudio==2.4.0  pytorch-cuda=11.8 -c pytorch -c nvidia
-   $ conda env create -f ddeseg_conda.yaml
+   $ conda env create -f ddeseg_conda.yml
 ```
 ### 2. Data Preparation
 We reorganized the directory structures for AVSS and VPO to unify the data loading process. To help you get started quickly, you can directly utilize our reorganized [dataset here](https://huggingface.co/datasets/Yenan/DDESeg/tree/main). Additionally, you can download the original datasets from the AVSS and VPO repositories and implement your own data loader.
